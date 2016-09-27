@@ -54,7 +54,8 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  /*padding: 100px 0;*/
+  margin: 100px 0px;
 }
 aside {
   padding: 50px 0;
@@ -199,8 +200,19 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+.section-article {
+  padding: 60px 60px;
+  /*text-align: left;*/
+}
 .section-heading {
   margin-top: 0;
+}
+.section-text {
+  text-align: center;
+}
+.section-text p {
+  display: inline-block;
+  text-align: left;
 }
 .service-box {
   max-width: 400px;
@@ -404,4 +416,18 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+.content-section-a {
+  background-image: url('../img/MLWG3_1.jpg');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.content-section-b {
+  background-image: url('../img/multihop_1.jpg');
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
 }
