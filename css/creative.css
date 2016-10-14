@@ -434,3 +434,10 @@ body {
 .content-section-b  .row {
   margin-left: 50px;
 }
+
+.modal_modify {
+  text-align: center;
+}
+.modal_modify p{
+  text-align: left;
+}
