@@ -150,7 +150,7 @@ header {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
+  background-position: center 30%;
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
